@@ -9,7 +9,10 @@ Make ca-certificates.crt daily via GitHub Actions
 
 ## Downloads
 
-[ca-certificates.crt](https://github.com/YJWangGH/ca-certificates.crt/blob/download/ca-certificates.crt)
+[ca-certificates.crt](https://raw.githubusercontent.com/YJWangGH/ca-certificates.crt/download/ca-certificates.crt)
+
+## SHA256
+
 [sha256sum](https://github.com/YJWangGH/ca-certificates.crt/blob/download/sha256sum)
 
 ## Update ca-certificates.crt with a script
