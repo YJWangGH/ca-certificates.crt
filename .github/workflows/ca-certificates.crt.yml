@@ -10,12 +10,15 @@ name: Publish ca-certificates.crt
 
 on:
   repository_dispatch:
-  schedule:
-    - cron: 0 22 * * *
+#  schedule:
+#    - cron: 0 22 * * *
+  watch:
+    types: [started]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
     timeout-minutes: 5
 
     steps:
